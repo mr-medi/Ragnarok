@@ -19,14 +19,13 @@ version 6.12.0.
 ## Funcionalidades
 
 * **Visualización de Mobs e items del juego usando los estandares de JSON API**
-* **A**
 
 ## Guía de instalación
 
 Lo primero de todo sera clonar el repositorio.
 ```bash
 #Clonamos el repositorio
-git clone https://github.com/mr-medi/ragnarok
+git clone https://github.com/mr-medi/Ragnarok
 ```
 
 Antes de proceder con la creación de las tablas necesitamos configurar unos parámetros
@@ -39,8 +38,7 @@ para la conexión con la base de datos, esto se encuentra en el fichero **'.env'
 * **DB_USERNAME=tuNombreDeUsuario**
 * **DB_PASSWORD=tuContraseña**
 
-Una vez configurados los parámetros anteriores necesitamos crear una base de datos con el nombre especificado en **'DB_DATABASE'** y ya
-estariamos listos para crear las tablas y subir datos de prueba.
+Una vez configurados los parámetros anteriores necesitamos crear una base de datos con el nombre especificado en **'DB_DATABASE'** e importar los datos facilitados en el fichero **'ragnarok.sql'**.
 
 ```bash
 #Vamos a la carpeta creada anteriormente
